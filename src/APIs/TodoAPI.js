@@ -5,7 +5,7 @@ const todoInstance = axios.create({
 });
 
 export const getTodoList = async(setTodos) => {
-  await todoInstance.get(process.env.REACT_APP_FIREBASE_RTDB_URL + "/.json")
+  await todoInstance.get("/.json")
     .then((res) => {
       if(res.data == null){
         setTodos([])
