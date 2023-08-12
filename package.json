@@ -1,5 +1,6 @@
 {
   "name": "week5-app",
+  "homepage": "https://week5-app.netlify.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
